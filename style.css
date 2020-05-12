@@ -4,6 +4,9 @@
   display: flex;
   flex-wrap: wrap;
   border-style: solid;
+  position: absolute;
+  left: 100px;
+  top: 100px;
 }
 
 .grid div {
@@ -17,4 +20,30 @@
 
 .apple {
   background-color: purple;
+}
+
+.start {
+  width: 120px;
+  height: 40px;
+  background-color: royalblue;
+  color: antiquewhite;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  left: 100px;
+  top: 25px;
+}
+
+.score {
+  position: absolute;
+  left: 100px;
+  top: 70px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  position: absolute;
+  left: 250px;
+  top: 10px;
 }
